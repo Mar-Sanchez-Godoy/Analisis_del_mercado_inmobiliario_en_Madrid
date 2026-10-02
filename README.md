@@ -12,6 +12,8 @@ Comprender la evolución del precio por metro cuadrado (m²) en los distritos de
 - Tendencias útiles para compradores, inversores y analistas
 - Vista Previa del Dashboard
 
+## Previsualización
+
 🟦 Página 1 — Ranking de precios por distrito
 
 <p align="center"> <img src="Images/Home.png" width="750"> </p>
