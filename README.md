@@ -1,6 +1,6 @@
 # Análisis del Mercado Inmobiliario – Madrid (2007–2024)
 
-### Análisis del mercado inmobiliario de Madrid utilizando Google Sheets y Power BI, incluyendo limpieza de datos, modelado, visualización avanzada y generación de insights orientados al negocio.
+Análisis del mercado inmobiliario de Madrid utilizando Google Sheets y Power BI, incluyendo limpieza de datos, modelado, visualización avanzada y generación de insights orientados al negocio.
 
 ## Objetivo del Proyecto
 
