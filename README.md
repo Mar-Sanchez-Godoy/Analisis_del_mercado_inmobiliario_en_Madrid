@@ -95,14 +95,15 @@ Creación de medidas DAX para análisis dinámicos
 Limpieza y normalización de datos reales
 Documentación clara del proceso analítico
 
-### Conclusiones
+## Conclusiones
 ¿Por qué están aumentando los precios?
 
 El análisis sugiere que el incremento de los precios de la vivienda en Madrid a largo plazo está relacionado principalmente con la interacción entre una demanda creciente y una oferta de vivienda relativamente limitada. Sin embargo, los precios también están condicionados por factores económicos y financieros más amplios que afectan a la capacidad de compra de los hogares, el acceso al crédito y las decisiones de inversión.
 
 Diversos factores estructurales y macroeconómicos pueden ayudar a explicar la evolución del mercado:
 
-### Crecimiento de la demanda: Madrid continúa atrayendo población, empleo y actividad económica, aumentando la demanda de vivienda.
+### Crecimiento de la demanda: 
+Madrid continúa atrayendo población, empleo y actividad económica, aumentando la demanda de vivienda.
 
 - Oferta de vivienda limitada: La construcción de nuevas viviendas no siempre ha evolucionado al mismo ritmo que la demanda, generando una presión persistente al alza sobre los precios.
 - Disponibilidad limitada de suelo: La disponibilidad y el desarrollo de suelo adecuado limitan la capacidad de incrementar rápidamente la oferta de vivienda, especialmente en zonas con una demanda elevada.
