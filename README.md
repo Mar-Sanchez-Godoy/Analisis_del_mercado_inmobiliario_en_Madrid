@@ -7,10 +7,10 @@ Análisis del mercado inmobiliario de Madrid utilizando Google Sheets y Power BI
 Comprender la evolución del precio por metro cuadrado (m²) en los distritos de Madrid entre 2007 y 2024, identificando:
 
 ## Variación anual del mercado
-Distritos con mayor y menor crecimiento
-Patrones de comportamiento por zona
-Tendencias útiles para compradores, inversores y analistas
-Vista Previa del Dashboard
+- Distritos con mayor y menor crecimiento
+- Patrones de comportamiento por zona
+- Tendencias útiles para compradores, inversores y analistas
+- Vista Previa del Dashboard
 
 🟦 Página 1 — Ranking de precios por distrito
 
