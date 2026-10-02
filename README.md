@@ -1,80 +1,71 @@
-# Real Estate Market Analysis – Madrid (2007–2024)
+# Análisis del Mercado Inmobiliario – Madrid (2007–2024)
 
-Analysis of the real estate market in Madrid using Google Sheets and Power BI, including data cleaning, modeling, advanced visualization, and business‑oriented insights.
+### Análisis del mercado inmobiliario de Madrid utilizando Google Sheets y Power BI, incluyendo limpieza de datos, modelado, visualización avanzada y generación de insights orientados al negocio.
 
-![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Visualization-F2C811)
+## Objetivo del Proyecto
 
-![DAX](https://img.shields.io/badge/DAX-Data%20Modeling-0A66C2)
+Comprender la evolución del precio por metro cuadrado (m²) en los distritos de Madrid entre 2007 y 2024, identificando:
 
-![Google Sheets](https://img.shields.io/badge/Google%20Sheets-Data%20Cleaning-34A853)
+## Variación anual del mercado
+Distritos con mayor y menor crecimiento
+Patrones de comportamiento por zona
+Tendencias útiles para compradores, inversores y analistas
+Vista Previa del Dashboard
+
+🟦 Página 1 — Ranking de precios por distrito
+
+<p align="center"> <img src="Images/Visualizacion_Ranking por distritos.png" width="750"> </p>
+
+🟦 Página 2 — Precios
+
+<p align="center"> <img src="Images/Precios_todos.png" width="750"> </p>
+
+🟦 Página 3 — Mapa de calor
+
+<p align="center"> <img src="Images/Mapa_de_calor.png" width="750"> </p>
+
+🟦 Página 4 — Conclusiones
+
+<p align="center"> <img src="Images/Conclusiones.png" width="750"> </p>
 
 
-## Project Objective
+## Principales Insights
+El distrito con mayor crecimiento acumulado es Salamanca (+3,43%).
+El distrito con menor desempeño es Villaverde (-1,0%).
+El mejor año del mercado fue 2018 (+14,81%).
+El peor año fue 2012 (-9,32%).
+La tendencia general del mercado es ascendente, con un crecimiento anual medio del 1,99%.
 
-Understand the evolution of the price per square meter (m²) across Madrid’s districts between 2007 and 2024, identifying:
+## Proceso de Análisis
+### 1. Recopilación del Dataset (CSV)
 
-- Annual market variation
-- Districts with the highest and lowest growth
-- Behavioral patterns by area
-- Trends useful for buyers, investors, and analysts
+Datos oficiales del Ayuntamiento de Madrid:
 
-## Dashboard Preview
-
-🟦 Page 1 — District Price Ranking
-<p align="center">
-<img src="Images/Visualizacion_Ranking por distritos.png" width="750">
-</p>
-
-🟦 Page 2 — Heatmap by District and Year
-<p align="center">
-<img src="Images/Visualizacion_Heatmap.png" width="750">
-</p>
-
-🟦 Page 3 — Key Insights + YoY Variation
-<p align="center">
-<img src="Images/Visualizacion_Conclusiones y tendencia.png" width="750">
-</p>
-
-## Key Insights
-
-- The district with the highest cumulative growth is Salamanca (+3.43%).
-- The district with the weakest performance is Villaverde (-1.0%).
-- The best market year was 2018 (+14.81%).
-- The worst year was 2012 (-9.32%).
-- The overall market trend is upward, with an average annual growth of 1.99%.
-
-## Analysis Process
-
-1. Dataset Collection (CSV)  
-Official data from the Madrid City Council:
 https://servpub.madrid.es/CSEBD_WBINTER/seleccionSerie.html?numSerie=0504030000152
 
-2. Cleaning and Transformation in Google Sheets and Power Query
+### 2. Limpieza y Transformación en Google Sheets y Power Query
+Normalización de columnas
+Corrección de valores atípicos
+Estandarización de distritos y fechas
+Eliminación de inconsistencias
 
-- Column normalization
-- Outlier correction
-- Standardization of districts and dates
-- Removal of inconsistencies
+### 3. Modelado en Power BI
+Creación de relaciones entre tablas
+Creación de medidas DAX
+Segmentación por distrito y año
+Cálculo de variación interanual (YoY) y variación acumulada
 
- 3. Modeling in Power BI
+### 4. Visualización
+Ranking de precios por distrito
+Mapa de calor de la evolución anual
+Insights automáticos generados mediante DAX
+Diseño visual orientado a consultoría
 
-- Table relationships
-- Creation of DAX measures
-- Segmentation by district and year
-- Calculation of YoY and cumulative variation
-
-4. Visualization
-
-- District price ranking
-- Annual evolution heatmap
-- Automatic insights generated with DAX
-- Consulting‑style visual theme
-
-## Repository Structure
-Code: Real-Estate-Madrid-Analysis/
+### Estructura del Repositorio
+Real-Estate-Madrid-Analysis/
 
 /Images
-  Process visuals:
+  Recursos visuales del proceso:
   - Conclusiones y tendencia.png
   - Heatmap.png
   - Modelo de estrella.png
@@ -84,70 +75,50 @@ Code: Real-Estate-Madrid-Analysis/
   - Tablas.png
 
 /dataset
-  Files used:
+  Archivos utilizados:
   - Datos inmobiliarios - Visualizacion.pdf
   - Datos inmobiliarios.pbix
   - Precios historicos Madrid - Ayuntamiento.xlsx
 
 README.md
+📎 Archivos Incluidos
+Datos inmobiliarios.pbix → Dashboard final
+Datos inmobiliarios - Visualizacion.pdf → Informe exportado
+dataset/ → Datos originales
+Images/ → Capturas del dashboard
 
-## 📎 Included Files
+### Aprendizajes
+Diseño de dashboards con un enfoque orientado a consultoría
+Creación de medidas DAX para análisis dinámicos
+Limpieza y normalización de datos reales
+Documentación clara del proceso analítico
 
-- Datos inmobiliarios.pbix → Final dashboard
-- Datos inmobiliarios - Visualizacion.pdf → Exported report
-- dataset/ → Original data
-- Images/ → Dashboard screenshots
+### Conclusiones
+¿Por qué están aumentando los precios?
 
-## Learnings
+El análisis sugiere que el incremento de los precios de la vivienda en Madrid a largo plazo está relacionado principalmente con la interacción entre una demanda creciente y una oferta de vivienda relativamente limitada. Sin embargo, los precios también están condicionados por factores económicos y financieros más amplios que afectan a la capacidad de compra de los hogares, el acceso al crédito y las decisiones de inversión.
 
-- Dashboard design with a consulting‑oriented approach
-- Creation of DAX measures for dynamic analysis
-- Cleaning and normalization of real‑world data
-- Clear documentation of the analytical process
+Diversos factores estructurales y macroeconómicos pueden ayudar a explicar la evolución del mercado:
 
+### Crecimiento de la demanda: Madrid continúa atrayendo población, empleo y actividad económica, aumentando la demanda de vivienda.
+Oferta de vivienda limitada: La construcción de nuevas viviendas no siempre ha evolucionado al mismo ritmo que la demanda, generando una presión persistente al alza sobre los precios.
+Disponibilidad limitada de suelo: La disponibilidad y el desarrollo de suelo adecuado limitan la capacidad de incrementar rápidamente la oferta de vivienda, especialmente en zonas con una demanda elevada.
+Descenso de los tipos de interés: La reducción de los tipos de interés europeos ha mejorado las condiciones de financiación respecto al entorno de tipos elevados de 2023–2024. El tipo de interés de las operaciones principales de financiación del BCE pasó del 4,25% en junio de 2024 al 2,40% en junio de 2026, reduciendo el coste de financiación bancaria y favoreciendo una mejora gradual de las condiciones de financiación.
 
- 
+Mejora de las condiciones económicas: Tras la fuerte contracción de la economía española en 2020, la actividad económica se recuperó con fuerza. El PIB de España creció un 5,5% en 2021 y, tras posteriores revisiones estadísticas, un 6,2% en 2022. Un entorno económico más favorable puede impulsar la demanda de vivienda al mejorar el empleo, las expectativas de ingresos de los hogares y la confianza de los consumidores.
 
-## Conclusions
+Descenso del desempleo: La tasa de desempleo en España descendió del 15,53% en 2020 al 12,92% en 2022, reflejando una mejora significativa de las condiciones del mercado laboral durante el periodo de recuperación.
 
-### Why Are Prices Increasing?
+Mejora del acceso a la financiación hipotecaria: A medida que mejoran las condiciones de financiación, más hogares pueden recuperar el acceso al crédito hipotecario o estar dispuestos a entrar en el mercado inmobiliario. Esto puede incrementar la demanda efectiva, especialmente cuando se combina con una oferta de vivienda relativamente limitada.
 
-The analysis suggests that the long-term increase in Madrid's housing prices is primarily related to the interaction between growing demand and relatively limited housing supply. However, housing prices are also influenced by broader economic and financial conditions that affect households' purchasing capacity, access to credit, and investment decisions.
+Costes de construcción: El incremento de los costes de construcción y de los materiales puede aumentar el coste final de las viviendas nuevas y reducir la velocidad a la que nueva oferta puede incorporarse al mercado.
 
-Several structural and macroeconomic factors may help explain the evolution of the market:
+Concentración económica: La posición de Madrid como uno de los principales centros económicos y de empleo aumenta su atractivo para trabajadores, empresas e inversores, contribuyendo a mantener una demanda de vivienda sostenida.
 
-* **Growing demand:** Madrid continues to attract population, employment, and economic activity, increasing demand for housing.
+Demanda de inversión: La vivienda también puede atraer a inversores que buscan rentabilidades a largo plazo, añadiendo otra fuente de demanda, especialmente en zonas con mercados de alquiler sólidos y expectativas de apreciación del capital.
 
-* **Limited housing supply:** New housing construction has not always kept pace with demand, creating persistent upward pressure on prices.
+Estos factores no deben interpretarse como causas individuales derivadas directamente del dataset. El proyecto identifica patrones históricos de precios, mientras que la interpretación económica más amplia está respaldada por investigaciones externas e indicadores macroeconómicos de instituciones como el Banco de España, el BCE y el INE.
 
-* **Limited availability of land:** The availability and development of suitable land constrain the ability to increase housing supply quickly, particularly in areas with strong demand.
+Sin embargo, esta proyección debe considerarse un escenario basado en tendencias históricas y no una previsión definitiva de precios. Un modelo de forecasting más robusto requeriría variables adicionales como tipos de interés, crecimiento de la población, ingresos, actividad constructora, concesión de hipotecas y empleo.
 
-* **Lower interest rates:** The reduction in European interest rates has improved financing conditions compared with the high-rate environment of 2023–2024. The ECB's main refinancing rate fell from 4.25% in June 2024 to 2.40% in June 2026, reducing the cost of bank funding and supporting a gradual improvement in financing conditions.
-
-* **Improved economic conditions:** Following the severe contraction of the Spanish economy in 2020, economic activity recovered strongly. Spain's GDP grew by 5.5% in 2021 and, following subsequent statistical revisions, 6.2% in 2022. A stronger economic environment can support housing demand by improving employment, household income expectations, and consumer confidence.
-
-* **Lower unemployment:** Spain's unemployment rate declined from 15.53% in 2020 to 12.92% in 2022, indicating a significant improvement in labour-market conditions during the recovery period.
-
-* **Improved access to mortgage financing:** As financing conditions improve, more households may regain access to mortgage credit or become willing to enter the housing market. This can increase effective demand, particularly when combined with relatively limited housing supply.
-
-* **Construction costs:** Higher construction and material costs can increase the final cost of new housing and reduce the speed at which new supply can enter the market.
-
-* **Economic concentration:** Madrid's position as a major economic and employment centre increases its attractiveness to workers, businesses, and investors, supporting sustained housing demand.
-
-* **Investment demand:** Housing can also attract investors seeking long-term returns, adding another source of demand, particularly in areas with strong rental markets and expectations of capital appreciation.
-
-
-These factors should not be interpreted as individual causes derived directly from the dataset. The project identifies historical price patterns, while the broader economic interpretation is supported by external research and macroeconomic indicators from institutions such as the Banco de España, the ECB, and the INE.
-
-
-However, this projection should be treated as a **scenario based on historical trends, rather than a definitive price forecast**. A more robust forecasting model would require additional variables such as interest rates, population growth, income, construction activity, mortgage lending, and employment.
-
-This represents an opportunity for further analysis and model development.
-
-
-Contact
-
-LinkedIn: https://www.linkedin.com/in/mar-sanchez-g/  
-Email: marsanchez095@gmail.com
-
-Email: marsanchez095@gmail.com
+Esto representa una oportunidad para continuar desarrollando el análisis y construir modelos predictivos más avanzados.
