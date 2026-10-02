@@ -14,7 +14,7 @@ Vista Previa del Dashboard
 
 🟦 Página 1 — Ranking de precios por distrito
 
-<p align="center"> <img src="Images/Visualizacion_Ranking por distritos.png" width="750"> </p>
+<p align="center"> <img src="Images/Home.png" width="750"> </p>
 
 🟦 Página 2 — Precios
 
